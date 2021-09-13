@@ -277,17 +277,18 @@ height: 100px;
     text-align: center;
     flex-direction: column; 
     width: 540px;
-    height: 147px;
+
  } 
 
  .sectionhotitevebsite{
     padding-top: 100px;
     background: #EEEFF1;
-    height: 762px;
+    
     width: 100%;
     display: flex;
     text-align: center;
     flex-direction: column; 
+    padding-bottom: 100px;
  }
 
  .hotitevebsitetitle{
@@ -296,56 +297,34 @@ height: 100px;
     line-height: 37px;
     margin-bottom: 50px;
  }
-/*
- .vasheima{
-    width: 255px;
-    height: 50px;
-background: white;
-display: flex;
- } */
- 
- .vash{
-    outline: none;
-    border:none;
-    margin-top: 65px;
+
+ .form{
+     max-width: 540px;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     
  }
 
-.vasheima{
-    background: white;
-    width: 255px;
-    height: 50px;
-    outline: none;
-    border:none;
-    margin-right: 20px;
-}
+ .input--half{
+     width: 250px;
+     height: 50px;
 
-.vashsoob{
-    background: white;
-    width: 540px;
-    height: 175px;
-    outline: none;
-    border:none;
-    margin-bottom: 50px;
-}
+ }
 
-.button__send{
-    padding: 25px 41px;
-    font-family: 'roboto', sans-serif;
-    font-size: 16px;
-    text-align: center;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    cursor: pointer;
-    outline: none;
-    border:none;
-}
-.vashhelp{
-  margin-bottom: 20px;
-}
-.footer{
-    background: #34547A;
-}
-.footer__div{
-    height: 151px;
-    width: 100%;
-}
+ .input--message{
+     width: 540px;
+     min-height: 175px;
+     margin-bottom: 50px;
+
+ }
+ .input-group{
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 20px;
+ }
+ .buttons{
+     display: flex;
+     justify-content: center;
+ }
+
